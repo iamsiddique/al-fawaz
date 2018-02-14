@@ -1,7 +1,7 @@
 version: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "al-fawaz.com"
+        S3_BUCKET: "demo-al-fawaz.com"
         BUILD_ENV: "prod"
 phases:
     install:
