@@ -19,9 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css","assets/plugins/bootstrap/bootstrap.min.css","assets/plugins/ionicons/ionicons.min.css","assets/plugins/animate-css/animate.css","assets/plugins/slider/slider.css",
+        "assets/plugins/owl-carousel/owl.carousel.css","assets/plugins/owl-carousel/owl.theme.css","assets/plugins/facncybox/jquery.fancybox.css","assets/css/style.css",
+        "assets/css/responsive.css"
+
       ],
-      "scripts": [],
+      "scripts": ["assets/plugins/jQurey/jquery.min.js","assets/plugins/form-validation/jquery.form.js","assets/plugins/form-validation/jquery.validate.min.js","assets/plugins/owl-carousel/owl.carousel.min.js","assets/plugins/bootstrap/bootstrap.min.js",
+        "assets/plugins/wow-js/wow.min.js","assets/plugins/slider/slider.js","assets/plugins/facncybox/jquery.fancybox.js","assets/js/main.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

@@ -1,0 +1,11 @@
+body {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 13px;
+    margin:0px !important;
+}
+body {
+    line-height: 1;
+}
