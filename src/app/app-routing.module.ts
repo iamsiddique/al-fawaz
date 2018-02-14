@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainComponent }      from './main/main.component';
+import { AboutComponent }      from './about/about.component';
+import { ContactComponent }      from './contact/contact.component';
+
 const routes: Routes = [
   { path: '', component: MainComponent },  
+  { path: 'about-us', component: AboutComponent },  
+  { path: 'contact-us', component: ContactComponent },  
   { path: '', redirectTo: '/', pathMatch: 'full' }
 ];
 

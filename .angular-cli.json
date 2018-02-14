@@ -21,7 +21,7 @@
       "styles": [
         "styles.css","assets/plugins/bootstrap/bootstrap.min.css","assets/plugins/ionicons/ionicons.min.css","assets/plugins/animate-css/animate.css","assets/plugins/slider/slider.css",
         "assets/plugins/owl-carousel/owl.carousel.css","assets/plugins/owl-carousel/owl.theme.css","assets/plugins/facncybox/jquery.fancybox.css","assets/css/style.css",
-        "assets/css/responsive.css"
+        "assets/css/main.css","assets/css/responsive.css"
 
       ],
       "scripts": ["assets/plugins/jQurey/jquery.min.js","assets/plugins/form-validation/jquery.form.js","assets/plugins/form-validation/jquery.validate.min.js","assets/plugins/owl-carousel/owl.carousel.min.js","assets/plugins/bootstrap/bootstrap.min.js",
