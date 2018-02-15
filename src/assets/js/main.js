@@ -100,6 +100,7 @@ jQuery(document).ready(function(){
 });
 window.onload=function(){
 var video = document.getElementById('video');
+this.console.log(video);
 video.addEventListener('click',function(){
   video.play();
 },false);
