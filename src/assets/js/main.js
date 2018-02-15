@@ -98,12 +98,12 @@ jQuery(document).ready(function(){
 }());
 
 });
-
+window.onload=function(){
 var video = document.getElementById('video');
 video.addEventListener('click',function(){
   video.play();
 },false);
-
+}
 
 
 $(document).ready(function(){
