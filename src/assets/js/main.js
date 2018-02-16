@@ -98,15 +98,30 @@ jQuery(document).ready(function(){
 }());
 
 });
+// document.getElementById("btnBtn").addEventListener("click", function(){
+//     alert('hi');
+// });
 window.onload=function(){
-var video = document.getElementById('video');
-console.log(video);
-video.addEventListener('click',test);
+    // document.getElementById("btnBtn").addEventListener("click", function(){
+    //     alert('hi');
+    // });
+// var video = document.getElementById('btnBtn');
+// console.log(video);
+// if (video.addEventListener) {
+//     video.addEventListener("click", test);
+// } else if (video.attachEvent) {
+//     video.attachEvent("onclick", test);
+// }
+// document.getElementById("btnBtn").addEventListener("click", function(){
+//     document.getElementById("btnBtn").innerHTML = "Hello World";
+// });
+// //video.addEventListener('click',test);
 
-function test(){
-    console.log('played');
-    video.play();
-}
+// function test(){
+//     console.log('test');
+//     console.log('played');
+//     //video.play();
+// }
 }
 
 

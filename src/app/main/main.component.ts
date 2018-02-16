@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterContentInit } from '@angular/core';
 
 @Component({
   selector: 'app-main',
@@ -8,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
 
   constructor() { }
-
+test = function(){
+  alert('hi');
+}
   ngOnInit() {
+    
+   // this.test();
+  }
+  ngAfterContentInit() {
+    document.getElementById("video").play();
+    console.log('loaded');
   }
 
 }
