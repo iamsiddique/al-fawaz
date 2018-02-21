@@ -15,7 +15,7 @@ test = function(){
   alert('hi');
 }
   ngOnInit() {
-    setTimeout(function(){ alert("Hello");this.videoplayer.nativeElement.play(); }, 3000);
+    setTimeout(function(){ alert("Hello");this.videoplayer.nativeElement.play(); }, 5000);
     
    // this.test();
   }
