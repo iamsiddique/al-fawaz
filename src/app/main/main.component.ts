@@ -15,13 +15,17 @@ test = function(){
   alert('hi');
 }
   ngOnInit() {
-    setTimeout(function(){ alert("Hello");this.videoplayer.nativeElement.play(); }, 5000);
+    
+    // setTimeout(function(){ 
+      
+    // }, 5000);
     
    // this.test();
   }
   ngAfterContentInit() {
    // document.getElementById("video").play();
     console.log('loaded');
+    this.videoplayer.nativeElement.play(); 
   }
 
 }
