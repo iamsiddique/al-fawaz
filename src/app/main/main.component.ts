@@ -16,7 +16,7 @@ test = function(){
    // this.test();
   }
   ngAfterContentInit() {
-    document.getElementById("video").play();
+   // document.getElementById("video").play();
     console.log('loaded');
   }
 
