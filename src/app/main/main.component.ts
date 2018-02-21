@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterContentInit, ViewChild } from '@angular/core';
 
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -14,7 +15,8 @@ test = function(){
   alert('hi');
 }
   ngOnInit() {
-    this.videoplayer.nativeElement.play();
+    setTimeout(function(){ alert("Hello");this.videoplayer.nativeElement.play(); }, 3000);
+    
    // this.test();
   }
   ngAfterContentInit() {
