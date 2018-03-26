@@ -4,12 +4,14 @@ import { MainComponent }      from './main/main.component';
 import { AboutComponent }      from './about/about.component';
 import { ContactComponent }      from './contact/contact.component';
 import { ProductDetailComponent }      from './product-detail/product-detail.component';
+import { ModularComponent } from './modular/modular.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },  
   { path: 'about-us', component: AboutComponent },  
   { path: 'contact-us', component: ContactComponent }, 
-  { path: 'travel-details', component: ProductDetailComponent },  
+  { path: 'travel-details', component: ProductDetailComponent },
+  { path: 'modular-kitcen', component: ModularComponent },  
   { path: '', redirectTo: '/', pathMatch: 'full' }
 ];
 

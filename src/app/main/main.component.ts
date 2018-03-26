@@ -25,7 +25,7 @@ test = function(){
   ngAfterContentInit() {
    // document.getElementById("video").play();
     console.log('loaded');
-    this.videoplayer.nativeElement.play(); 
+    //this.videoplayer.nativeElement.play(); 
   }
 
 }
