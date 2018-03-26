@@ -10,7 +10,6 @@ import { AppRoutingModule } from './/app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-import { InvestmentCompComponent } from './investment-comp/investment-comp.component';
 
 
 @NgModule({
@@ -21,8 +20,7 @@ import { InvestmentCompComponent } from './investment-comp/investment-comp.compo
     FooterComponent,
     AboutComponent,
     ContactComponent,
-    ProductDetailComponent,
-    InvestmentCompComponent    
+    ProductDetailComponent    
   ],
   imports: [
     BrowserModule,
